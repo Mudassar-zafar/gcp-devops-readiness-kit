@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+override.tf
+override.tf.json
+*.auto.tfvars
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
