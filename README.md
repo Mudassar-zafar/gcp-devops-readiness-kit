@@ -53,7 +53,7 @@ The point of the loop: **you always know what state the infrastructure is in, wh
 Requirements: `gcloud` CLI authenticated with **Viewer** level access. The script only calls `list` and `describe` operations. Cloud Shell works with zero setup.
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/Mudassar-zafar/gcp-devops-readiness-kit.git
 cd gcp-devops-readiness-kit
 chmod +x scripts/gcp-assess.sh
 ./scripts/gcp-assess.sh YOUR_PROJECT_ID
